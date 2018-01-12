@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Brews N Stews</h1>
+    </div>
+    <div id="nav">
+      <hr />
+      <a href="./index.html">Home</a>
+      <a href="./menu.html" target="_blank">Menu</a>
+      <a href="./contactUs.html" target="_blank">Contact Us</a>
+      <hr />
+    </div>
+    <div id="main">
+      <form action="submit.html" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br />
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br />
+        <label for="reason">Reason for Inquiry:</label>
+        <select id="reason" name="reason">
+          <option value="catering" selected>Catering</option>
+          <option value="private">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select><br />
+        <label for="info">Additional Information:</label>
+        <textarea id="info"></textarea><br />
+        <fieldset>
+          <legend>Have you been to the restaurant?</legend>
+          <input type="radio" id="choice1" name="questionnaire" value="no">
+          <label for="choice1">No</label>
+          <input type="radio" id="choice2" name="questionnaire" value="yes">
+          <label for="choice2">Yes</label><br />
+        </fieldset>
+        <fieldset>
+          <legend>Best days to contact you:</legend>
+          <input type="checkbox" id="mon" name="days" value="mon">
+          <label for="mon">M</label>
+          <input type="checkbox" id="tues" name="days" value="tues">
+          <label for="tues">T</label>
+          <input type="checkbox" id="wed" name="days" value="wed">
+          <label for="wed">W</label>
+          <input type="checkbox" id="thurs" name="days" value="thurs">
+          <label for="thurs">Th</label>
+          <input type="checkbox" id="fri" name="days" value="fri">
+          <label for="fri">F</label>
+        </fieldset>
+        <input type="submit" name="submit" value="Send Request">
+      </form>
+    </div>
+    <div id="footer">
+      <hr />
+      <footer>
+        <p>333 Brew Blvd, Evansville, IN 47711</p>
+        <p>(812)555-BREW</p>
+      </footer>
+    </div>
+  </body>
+</html>
