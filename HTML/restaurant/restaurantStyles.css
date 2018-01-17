@@ -1,0 +1,61 @@
+/*Header and Footer styles*/
+/*Colors from Tabby Cat palette by LJK*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(163,144,109,0.4);
+  color: #2a2111;
+}
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 75px;
+  line-height: 10px;
+  text-align: center;
+  color: #2a2111;
+}
+hr {
+  border-top: 2px solid #956c1f;
+  border-bottom: 2px solid #956c1f;
+  margin: 0;
+}
+#nav {
+  background-color: #a3906d;
+}
+#nav a {
+  padding: 0px 10px;
+  line-height: 35px;
+}
+a {
+  font-family: serif;
+  text-decoration: underline;
+  font-weight: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: #2a2111;
+}
+a:hover {
+  color: #fffbf5;
+}
+a:active {
+  color: #fffbf5;
+}
+#main {
+  background-color: rgba(163,144,109,0.4);
+  text-align: center;
+  height: 100%;
+}
+#description {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+#footer {
+  font-size: 15px;
+  text-align: center;
+  background-color: #a3906d;
+}
+#footer p {
+  margin: 5px;
+}
